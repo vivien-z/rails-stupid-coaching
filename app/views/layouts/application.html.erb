@@ -10,6 +10,14 @@
   </head>
 
   <body>
+    <div class="navbar">
+      <ul>
+        <%= link_to "Ask", ask_path %>
+        <%= link_to "Answer", answer_path %>
+      </ul>
+    </div>
+    <h1>Welcome to the Stupid Coaching site</h1>
     <%= yield %>
+    <div class="footer">Join us</div>
   </body>
 </html>
