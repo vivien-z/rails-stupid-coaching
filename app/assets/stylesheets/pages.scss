@@ -1,3 +1,77 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  margin: 0;
+}
+
+.navbar {
+  font-size: 24px;
+  background-color: rgb(142, 154, 175);
+  padding: 6px 14px;
+  ul {
+    margin: 0;
+  }
+}
+.navbar-icon {
+  color: white;
+  padding: 4px 16px;
+  text-decoration: none;
+  font-family: open sans;
+  &:hover {
+    background-color: white;
+    border-radius: 4px;
+    color: rgb(142, 154, 175);
+  }
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  font-family: open sans;
+}
+
+// ASK
+input {
+  font-size: 24px;
+  border: 1px solid rgba(142, 154, 175, 0.3);
+  padding: 4px 16px;
+  border-radius: 4px;
+}
+
+.button {
+  font-weight: bold;
+  background-color:rgb(72, 149, 239);
+  color: white;
+  border: none;
+  margin-left: none;
+  &:hover {
+    background-color: rgba(72, 149, 239, 0.6)
+  }
+}
+
+//ANSWER
+.question {
+  border-left: 6px solid rgba(142, 154, 175, 0.5);
+  padding-left: 10px;
+}
+
+.answer {
+  background-color: #fefae0;
+  border-left: 6px solid rgba(142, 154, 175, 0.5);
+  padding-left: 10px;
+}
+
+.link {
+  color: white;
+  background-color: rgb(72, 149, 239);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  &:hover {
+    background-color: rgba(72, 149, 239, 0.6)
+  }
+}
